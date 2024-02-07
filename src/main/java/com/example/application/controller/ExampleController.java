@@ -9,7 +9,7 @@ public class ExampleController {
 
     @GetMapping
     public ResponseEntity<?> helloWorld() {
-        return ResponseEntity.ok().body("Hello World!");
+        return ResponseEntity.ok().body("Hello World new feature!");
     }
 
 
